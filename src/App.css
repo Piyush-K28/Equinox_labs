@@ -1,0 +1,173 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+}
+
+.app {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.header p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.postpaid {
+  background-color: #cce5ff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.query-btn {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.overview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.revenue-box {
+  background-color: #f8f9fa;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #dee2e6;
+}
+
+.revenue-box h3 {
+  margin: 8px 0 0 0;
+  font-size: 20px;
+}
+
+.green {
+  color: green;
+  font-weight: bold;
+}
+
+.overdue {
+  color: red;
+  font-weight: bold;
+}
+
+.outstanding {
+  color: #dc3545;
+}
+
+.date {
+  color: #333;
+}
+
+.overdue-details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+.tabs {
+  display: flex;
+  gap: 16px;
+  border-bottom: 2px solid #dee2e6;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.tabs span {
+  cursor: pointer;
+  padding: 6px 10px;
+}
+
+.tabs .active {
+  border-bottom: 2px solid #007bff;
+  font-weight: bold;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.placeholder {
+  background-color: #e0e0e0;
+  height: 18px;
+  border-radius: 4px;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.activity-box {
+  background-color: #f5f5f5;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.activity-box h4 {
+  margin-bottom: 12px;
+}
+
+.activity-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.timeline-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #007bff;
+  border-radius: 50%;
+  margin-top: 6px;
+}
+
+.activity-time {
+  min-width: 100px;
+  font-size: 14px;
+}
+
+.activity-desc {
+  background-color: white;
+  padding: 10px 14px;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+  flex: 1;
+  font-size: 14px;
+}
